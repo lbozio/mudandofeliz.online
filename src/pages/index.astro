@@ -5,6 +5,7 @@ import Referencia from "../components/Referencia.astro";
 import Rodape from "../components/Rodape.astro";
 import Titulo from "../components/Titulo.astro";
 import Garantia from "../components/Garantia";
+import VSL from "../components/VSL.astro";
 ---
 
 <Layout title="Programa D21">
@@ -15,7 +16,6 @@ import Garantia from "../components/Garantia";
         texto="Essa página possui uma oferta exclusiva"
       />
       <Titulo texto="6 ingredientes simples que me ajudaram muito" />
-      <Garantia />
       <section class="hero py-lg-2 py-sm-2 right px-lg-15 px-sm-1">
         <div class="center px-lg-15">
           <h2 id="headline" class="mt-lg-3 mt-sm-1">
@@ -23,47 +23,11 @@ import Garantia from "../components/Garantia";
           </h2>
         </div>
         <div class="mt-lg-5 mt-sm-3 mx-auto center max-w-lg-60">
-          <div
-            id="vid_63963393f118fb000ad435f3"
-            style="position: relative; width: 100%; padding: 56.25% 0 0"
-          >
-            <img
-              id="thumb_63963393f118fb000ad435f3"
-              alt="img"
-              src="https://images.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/players/63963393f118fb000ad435f3/thumbnail.jpg"
-              style="
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
-				display: block;
-			  "
-            />
-            <div
-              id="backdrop_63963393f118fb000ad435f3"
-              style="
-				position: absolute;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				-webkit-backdrop-filter: blur(5px);
-				backdrop-filter: blur(5px);
-			  "
-            >
-            </div>
-          </div>
-          <script type="text/javascript" id="scr_63963393f118fb000ad435f3">
-            var s = document.createElement("script");
-            (s.src =
-              "https://scripts.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/players/63963393f118fb000ad435f3/player.js"),
-              (s.async = !0),
-              document.head.appendChild(s);
-          </script>
           <p class="audio strong"></p>
         </div>
       </section>
+      <VSL />
+      <Garantia />
       <Referencia />
       <section class="px-lg-20 py-lg-2">
         <div class="fakebook fb-comments">
