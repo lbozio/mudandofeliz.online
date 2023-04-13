@@ -1,13 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Banner from "../components/Banner.astro";
+import Referencia from "../components/Referencia.astro";
+import Rodape from "../components/Rodape.astro";
+import Titulo from "../components/Titulo.astro";
 ---
 
 <Layout title="Programa D21">
   <main>
     <body>
-      <div class="banner py-lg-1 py-sm-1 center">
-        Assista o vídeo antes que saia do ar
-      </div>
+      <Banner
+        bold="Atenção: "
+        texto="Essa página possui uma oferta exclusiva"
+      />
+      <Titulo texto="6 ingredientes simples que me ajudaram muito" />
       <section class="hero py-lg-2 py-sm-2 right px-lg-15 px-sm-1">
         <div class="center px-lg-15">
           <h2 id="headline" class="mt-lg-3 mt-sm-1">
@@ -56,7 +62,7 @@ import Layout from "../layouts/Layout.astro";
           <p class="audio strong"></p>
         </div>
       </section>
-      <img src="/plr-page/referencias.png" alt="Descrição da imagem" />
+      <Referencia />
       <section class="px-lg-20 py-lg-2">
         <div class="fakebook fb-comments">
           <section class="comments">
@@ -473,6 +479,7 @@ import Layout from "../layouts/Layout.astro";
         </div>
       </section>
     </body>
+    <Rodape />
   </main>
 </Layout>
 

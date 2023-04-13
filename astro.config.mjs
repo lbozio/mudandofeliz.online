@@ -4,4 +4,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://BrunoKrugel.github.io",
   base: "/plr-page",
+  scripts: {
+    "text/javascript": ["**/*.js"],
+  },
 });
