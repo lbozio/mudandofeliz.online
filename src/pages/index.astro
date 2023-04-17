@@ -4,8 +4,10 @@ import Banner from "../components/Banner.astro";
 import Referencia from "../components/Referencia.astro";
 import Rodape from "../components/Rodape.astro";
 import Titulo from "../components/Titulo.astro";
-import Garantia from "../components/Garantia";
+import Conteudo from "../components/Conteudo";
+import Garantia from "../components/Garantia.jsx";
 import VSLPlayer from "../components/VSLPlayer.astro";
+import Completo from "../components/Completo";
 ---
 
 <Layout title="Programa D21">
@@ -15,20 +17,14 @@ import VSLPlayer from "../components/VSLPlayer.astro";
         bold="Atenção: "
         texto="Essa página possui uma oferta exclusiva"
       />
-      <Titulo texto="6 ingredientes simples que me ajudaram muito" />
-      <section class="hero py-lg-2 py-sm-2 right px-lg-15 px-sm-1">
-        <div class="center px-lg-15">
-          <h2 id="headline" class="mt-lg-3 mt-sm-1">
-            6 ingredientes Simples Que Me Ajudaram Muito
-          </h2>
-        </div>
-        <div class="mt-lg-5 mt-sm-3 mx-auto center max-w-lg-60">
-          <p class="audio strong"></p>
-        </div>
-      </section>
+      <Titulo
+        texto="LIVRO SECRETO REVELA O SEGREDO DO TRUQUE DA BANANA MATINAL QUE QUEIMA GORDURA DE FORMA AUTOMÁTICA…"
+      />
       <VSLPlayer />
-      <Garantia />
+      <Conteudo />
+      <Completo />
       <Referencia />
+      <Garantia />
       <section class="px-lg-20 py-lg-2">
         <div class="fakebook fb-comments">
           <section class="comments">
