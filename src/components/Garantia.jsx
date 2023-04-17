@@ -28,7 +28,7 @@ export default function Garantia() {
         <Box>
           <Grid container spacing={2} padding={3}>
             <Grid item xs={12} md={6}>
-              <img src="garantia.png" alt="Garantia" />
+              <img src="garantia.png" alt="Garantia" width={250} />
             </Grid>
             <Grid item xs={12} md={6}>
               <Typography variant="h6">O SEU RISCO É ZERO!</Typography>
