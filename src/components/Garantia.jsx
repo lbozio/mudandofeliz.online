@@ -31,7 +31,9 @@ export default function Garantia() {
               <img src="garantia.png" alt="Garantia" width={250} />
             </Grid>
             <Grid item xs={12} md={6}>
-              <Typography variant="h6">O SEU RISCO É ZERO!</Typography>
+              <Typography color={"#4F9A68"} variant="h6">
+                O SEU RISCO É ZERO!
+              </Typography>
               <br />
               <Typography variant="subtitle1">
                 Se você ainda está com dúvidas se vai gostar ou vai se adaptar

@@ -23,7 +23,9 @@ export default function Conteudo() {
         <Grid item xs={12} md={4}>
           <Item>
             <Credit />
-            <Typography variant="h6">Pagamento seguro</Typography>
+            <Typography color={"#4F9A68"} variant="h6">
+              Pagamento seguro
+            </Typography>
             <Typography variant="subtitle1">
               Ambiente seguro. Seus dados estão protegidos e sua compra é 100%
               segura.
@@ -33,7 +35,9 @@ export default function Conteudo() {
         <Grid item xs={12} md={4}>
           <Item>
             <Check />
-            <Typography variant="h6">Livro Completo</Typography>
+            <Typography color={"#4F9A68"} variant="h6">
+              Livro Completo
+            </Typography>
             <Typography variant="subtitle1">
               Aprenda o Truque Da Banana que ativa a queima de gordura
               automática de forma natural.
@@ -43,7 +47,9 @@ export default function Conteudo() {
         <Grid item xs={12} md={4}>
           <Item>
             <Play />
-            <Typography variant="h6">Acesso imediato</Typography>
+            <Typography color={"#4F9A68"} variant="h6">
+              Acesso imediato
+            </Typography>
             <Typography variant="subtitle1">
               Seu livro digital será enviado ao seu e-mail logo após o
               processamento do pagamento.

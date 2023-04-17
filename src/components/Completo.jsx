@@ -30,7 +30,9 @@ export default function Completo() {
               <img src="livro.png" alt="Livro" width={300} />
             </Grid>
             <Grid item xs={12} md={6}>
-              <Typography variant="h6">Livro completo</Typography>
+              <Typography color={"#4F9A68"} variant="h6">
+                Livro completo
+              </Typography>
               <br />
               <Typography variant="subtitle1">
                 Se você já tentou emagrecer antes através de exercícios físicos,
