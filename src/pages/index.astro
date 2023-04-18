@@ -9,6 +9,8 @@ import Garantia from "../components/Garantia.jsx";
 import VSLPlayer from "../components/VSLPlayer.astro";
 import Completo from "../components/Completo";
 import Bonus from "../components/Bonus";
+import SubtituloVerde from "../components/SubtituloVerde";
+import FAQ from "../components/FAQ.astro";
 ---
 
 <Layout title="Programa D21">
@@ -20,13 +22,21 @@ import Bonus from "../components/Bonus";
     <VSLPlayer />
     <Conteudo />
     <br />
+    <SubtituloVerde texto={"Aqui está tudo o que você receberá..."} />
+    <br />
     <Completo />
+    <br />
+    <Bonus />
+    <br />
+    <SubtituloVerde texto={"Será que isso realmente funciona?"} />
+    <SubtituloVerde texto={"Veja depoimentos reais de pessoas reais..."} />
+    <br />
+    <Garantia />
+    <br />
+    <FAQ />
   </div>
   <!-- <br />
   <Referencia />
-  <br />
-  <Bonus />
-  <br />
-  <Garantia /> -->
+  <br /> -->
   <!-- <br /> -->
 </Layout>

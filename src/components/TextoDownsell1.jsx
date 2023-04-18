@@ -20,7 +20,7 @@ export default function TextoDownsell1() {
       >
         <Box>
           <br />
-          <img src="stop.png" alt="stop" />
+          <img src="/downsell1/stop.png" alt="stop" />
           <Typography variant="h4" fontWeight="bold">
             OK. ENTENDI! VOCÊ ACHOU 67 REAIS MUITO CARO, CERTO?
           </Typography>

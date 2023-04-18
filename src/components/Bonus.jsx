@@ -30,7 +30,7 @@ export default function Bonus() {
               <Typography variant="h6">ESPECIAL</Typography>
               <br />
 
-              <Typography color={"#4F9A68"} variant="h5">
+              <Typography color={"#4F9A68"} variant="h5" fontWeight={"bold"}>
                 + 3 Bônus Exclusivos
               </Typography>
               <br />
@@ -39,11 +39,6 @@ export default function Bonus() {
                 você irá garantir 3 bônus incríveis:
                 <br /> O bônus Suporte Premium + Método Antiflacidez + Coleção
                 Especial: 25 Receitas Deliciosas de forma TOTALMENTE gratuita!
-              </Typography>
-              <Typography variant="subtitle1">
-                Enquanto as que simplesmente não conseguem emagrecer, possuem
-                bactérias ruins que tornam a perda peso impossível e fazem você
-                acumular cada vez mais gordura.
               </Typography>
             </Grid>
             <Grid item xs={12} md={12}>
