@@ -7,14 +7,16 @@ export interface Props {
 const { bold, texto } = Astro.props;
 ---
 
-<div><strong>{bold}</strong>{texto}</div>
+<div class="banner"><strong>{bold}</strong>{texto}</div>
 
 <style>
-  div {
+  .banner {
     color: white;
     background-color: red;
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    width: 100%;
+    height: fit-content;
   }
 </style>

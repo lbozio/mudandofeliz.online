@@ -9,24 +9,15 @@ import Garantia from "../components/Garantia.jsx";
 import VSLPlayer from "../components/VSLPlayer.astro";
 import Completo from "../components/Completo";
 import Bonus from "../components/Bonus";
+import TextoDownsell1 from "../components/TextoDownsell1";
 ---
 
 <Layout title="Programa D21">
   <div>
-    <Banner bold="Atenção: " texto="Essa página possui uma oferta exclusiva" />
-    <Titulo
+    <Banner bold="Cuidado: " texto="não feche esta página ainda..." />
+    <TextoDownsell1 />
+    <!-- <Titulo
       texto="LIVRO SECRETO REVELA O SEGREDO DO TRUQUE DA BANANA MATINAL QUE QUEIMA GORDURA DE FORMA AUTOMÁTICA…"
-    />
-    <VSLPlayer />
-    <Conteudo />
-    <br />
-    <Completo />
+    /> -->
   </div>
-  <!-- <br />
-  <Referencia />
-  <br />
-  <Bonus />
-  <br />
-  <Garantia /> -->
-  <!-- <br /> -->
 </Layout>
