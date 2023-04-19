@@ -1,10 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import TextoObrigado from "../components/TextoObrigado";
+import TextoMedio from "../components/Texto/TextoMedio";
+import TextoVerde from "../components/Texto/TextoVerde";
+import ContainerBox from "../components/ContainerBox";
 ---
 
 <Layout title="Programa D21">
-  <div>
-    <TextoObrigado />
-  </div>
+  <ContainerBox>
+    <TextoMedio>
+      <br />
+      <br />
+      PARABÉNS! VAGA GARANTIDA COM SUCESSO!
+      <br />
+      <br />
+      Estou muito feliz por você ter tomado esta decisão!
+      <br />
+      <br />
+      Garanto que vamos superar todas as suas expectativas.
+      <br />
+      <br />
+      O acesso foi enviado ao e-mail que você cadastrou na hora da compra.
+      <br />
+      <br />
+      Caso não ache de primeira, verifique se não caiu na caixa de SPAM/LIXEIRA do
+      seu e-mail.
+      <br />
+    </TextoMedio>
+    <TextoVerde>OBRIGADO</TextoVerde>
+  </ContainerBox>
 </Layout>
