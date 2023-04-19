@@ -18,6 +18,16 @@ const Item = styled(Paper)(({ theme }) => ({
   width: "80%",
 }));
 
+const StyledImage = styled(Box)(({ theme }) => ({
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  width: "100%",
+  [theme.breakpoints.up("sm")]: {
+    width: "70%", // height for tablet devices and up
+  },
+}));
+
 export default function Garantia() {
   return (
     <div
@@ -27,10 +37,14 @@ export default function Garantia() {
         <Box>
           <Grid container spacing={2} padding={3}>
             <Grid item xs={12} md={6}>
-              <img src="garantia.png" alt="Garantia" width={250} />
+              <StyledImage
+                component="img"
+                src="garantia.png"
+                alt="Image description"
+              />
             </Grid>
             <Grid item xs={12} md={6}>
-              <Typography color={"#4F9A68"} variant="h6">
+              <Typography color={"#4F9A68"} variant="h5" fontWeight="bold">
                 O SEU RISCO É ZERO!
               </Typography>
               <br />

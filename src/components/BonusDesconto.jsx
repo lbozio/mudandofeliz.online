@@ -23,17 +23,16 @@ const StyledImage = styled(Box)(({ theme }) => ({
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   height: "200px", // default height
+  width: "100%",
   [theme.breakpoints.up("sm")]: {
-    width: "100%",
     height: "40%", // height for tablet devices and up
   },
   [theme.breakpoints.up("md")]: {
-    width: "50%",
     height: "70%", // height for desktop devices and up
   },
 }));
 
-export default function Bonus() {
+export default function BonusDesconto() {
   return (
     <div
       style={{ textAlign: "center", display: "flex", justifyContent: "center" }}
@@ -42,34 +41,34 @@ export default function Bonus() {
         <Box>
           <Grid container spacing={2} padding={3}>
             <Grid item xs={12} md={12}>
-              <Typography color="#9F9F9F" variant="h6" fontWeight="bold">
-                ESPECIAL
+              <Typography color="#9F9F9F" variant="h6">
+                <s>VALOR TOTAL DE R$ 497,00 </s>
+                <br />
+                <s>POR R$ 147,00</s>
               </Typography>
               <br />
 
-              <Typography color={"#4F9A68"} variant="h4" fontWeight={"bold"}>
-                + 3 Bônus Exclusivos
+              <Typography variant="h4" fontWeight={"bold"}>
+                MAS HOJE POR R$ 12X DE R$ 14,76
+              </Typography>
+              <Typography variant="h6" fontWeight={"bold"}>
+                OU R$ 147,00 À VISTA
               </Typography>
               <br />
-              <Typography variant="subtitle1">
-                Garantindo hoje seu acesso ao Livro Truque Da Banana Para Secar
-                você irá garantir 3 bônus incríveis:
-                <br /> O bônus Suporte Premium + Método Antiflacidez + Coleção
-                Especial: 25 Receitas Deliciosas de forma TOTALMENTE gratuita!
+              <Typography color={"#4F9A68"} variant="h5" fontWeight={"bold"}>
+                Tenha acesso ao combo completo com desconto hoje
               </Typography>
+              <br />
             </Grid>
-            <Grid item xs={12} md={12}>
+            <Grid item xs={12} md={6}>
+              <img src="livro.png" alt="Livro" width={300} />
+            </Grid>
+            <Grid item xs={12} md={6}>
               <StyledImage
                 component="img"
                 src="bonus.png"
                 alt="Image description"
               />
-              <Typography variant="subtitle1">
-                1 Bônus exclusivo:{" "}
-                <strong>
-                  <s>(Valor R$ 197)</s>
-                </strong>
-              </Typography>
             </Grid>
           </Grid>
         </Box>

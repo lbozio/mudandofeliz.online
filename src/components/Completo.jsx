@@ -30,7 +30,7 @@ export default function Completo() {
               <img src="livro.png" alt="Livro" width={300} />
             </Grid>
             <Grid item xs={12} md={6}>
-              <Typography color={"#4F9A68"} variant="h6">
+              <Typography color={"#4F9A68"} variant="h5" fontWeight="bold">
                 Livro completo
               </Typography>
               <br />

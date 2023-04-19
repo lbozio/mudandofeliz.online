@@ -12,6 +12,7 @@
       width: "80%",
     }}
   >
+    <br />
     <h2>Perguntas frequentes</h2>
     <ul>
       <li>
@@ -65,13 +66,13 @@
         </p>
       </li>
     </ul>
+    <br />
+    <br />
   </div>
 </div>
 
 <script>
   const questions = document.querySelectorAll(".question");
-  const answers = document.querySelectorAll(".answer");
-
   questions.forEach((question) => {
     question.addEventListener("click", () => {
       const answer = question.nextElementSibling;
@@ -93,23 +94,37 @@
     display: block;
   }
 
+  ul {
+    padding: 0;
+  }
+
   li {
     margin-bottom: 20px;
     list-style-type: none;
+    color: "#242424";
   }
 
   h2 {
     color: #4f9a68;
     font-weight: 800;
+    color: "#242424";
   }
 
   p {
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  @media (min-width: 600px) {
+    ul {
+      margin-left: 400px;
+    }
   }
 
   h3 {
     text-align: left;
     font-weight: 600;
+    color: "#242424";
   }
 </style>
