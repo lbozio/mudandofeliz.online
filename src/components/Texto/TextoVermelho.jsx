@@ -10,7 +10,10 @@ export default function TextoVermelho(props) {
         lineHeight: "1.2",
       }}
     >
+      <br />
       {props.children}
+      <br />
+      <br />
     </Typography>
   );
 }
