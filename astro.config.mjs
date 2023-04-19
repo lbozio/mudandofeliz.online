@@ -10,4 +10,15 @@ export default defineConfig({
     "text/javascript": ["**/*.js"],
   },
   integrations: [react()],
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          entryFileNames: "entry.[hash].js",
+          chunkFileNames: "chunks/chunk.[hash].js",
+          assetFileNames: "assets/asset.[hash][extname]",
+        },
+      },
+    },
+  },
 });
