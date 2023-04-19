@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
   width: "80%",
 }));
 
-export default function Completo() {
+export default function LivroCompleto() {
   return (
     <div
       style={{ textAlign: "center", display: "flex", justifyContent: "center" }}
