@@ -8,6 +8,7 @@ import TextoPequeno from "../components/Texto/TextoPequeno";
 import TextoVermelho from "../components/Texto/TextoVermelho";
 import Container from "../components/Container.astro";
 import Downsell1 from "../components/Botao/Downsell1.astro";
+import Redirect from "../components/Botao/Redirect.astro";
 ---
 
 <Layout title="Programa D21">
@@ -60,9 +61,11 @@ import Downsell1 from "../components/Botao/Downsell1.astro";
         Então agora, você vai ter a oportunidade de ter acesso ao Método
         Antiflacidez com um desconto especial e + 1 bônus gratuito...
       </TextoMedio>
-      <Container>
-        <Downsell1 />
-      </Container>
+      <div id="oferta">
+        <Container>
+          <Downsell1 />
+        </Container>
+      </div>
       <TextoPequeno>
         Somente agora, aqui nesta página, ao fechar a página você perderá essa
         chance para sempre!
@@ -102,7 +105,9 @@ import Downsell1 from "../components/Botao/Downsell1.astro";
         </strong>
       </TextoVermelho>
       <img src="/plr-page/downsell1/downsell1.png" width="200" alt="" />
-      <br />
+      <Container>
+        <Redirect />
+      </Container>
       <img src="/plr-page/segura.png" width="300" alt="" />
       <TextoPequeno>
         Como você já viu acima, esse é um valor imbatível!
@@ -138,6 +143,9 @@ import Downsell1 from "../components/Botao/Downsell1.astro";
         apenas <strong class="preco">R$ 37</strong>.
         <br /><br />
       </TextoMedio>
+      <Container>
+        <Redirect />
+      </Container>
     </ContainerBox>
   </div>
 </Layout>
