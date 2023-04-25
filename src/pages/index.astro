@@ -1,8 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Banner from "../components/Banner.astro";
-import Referencia from "../components/Referencia.astro";
-import Rodape from "../components/Rodape.astro";
 import Titulo from "../components/Titulo.astro";
 import Conteudo from "../components/Conteudo";
 import Garantia from "../components/Garantia.jsx";
@@ -21,6 +19,7 @@ import Depoimento4 from "../components/VSL/Depoimento4.astro";
 import Depoimento5 from "../components/VSL/Depoimento5.astro";
 import Depoimento6 from "../components/VSL/Depoimento6.astro";
 import Depoimento7 from "../components/VSL/Depoimento7.astro";
+import PlayerDepoimento from "../components/ContainerDepoimento.astro";
 ---
 
 <Layout title="Programa D21">
@@ -50,27 +49,27 @@ import Depoimento7 from "../components/VSL/Depoimento7.astro";
     <SubtituloVerde texto={"Será que isso realmente funciona?"} />
     <SubtituloVerde texto={"Veja depoimentos reais de pessoas reais..."} />
     <br />
-    <VSLPlayer>
+    <PlayerDepoimento>
       <Depoimento1 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento2 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento3 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento4 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento5 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento6 />
-    </VSLPlayer>
-    <VSLPlayer>
+    </PlayerDepoimento>
+    <PlayerDepoimento>
       <Depoimento7 />
-    </VSLPlayer>
+    </PlayerDepoimento>
     <br />
     <Garantia />
     <br />
