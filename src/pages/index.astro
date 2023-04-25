@@ -14,6 +14,8 @@ import FAQ from "../components/FAQ.astro";
 import BotaoVerde from "../components/BotaoVerde";
 import BonusDesconto from "../components/BonusDesconto";
 import VSL from "../components/VSL/VSL.astro";
+import Depoimento1 from "../components/VSL/Depoimento1.astro";
+import Depoimento2 from "../components/VSL/Depoimento2.astro";
 ---
 
 <Layout title="Programa D21">
@@ -36,9 +38,16 @@ import VSL from "../components/VSL/VSL.astro";
     <BonusDesconto />
     <br />
     <BotaoVerde texto={"SIM! EU QUERO EMAGRECER"} />
-    <!-- <br />
+    <br />
     <SubtituloVerde texto={"Será que isso realmente funciona?"} />
-    <SubtituloVerde texto={"Veja depoimentos reais de pessoas reais..."} /> -->
+    <SubtituloVerde texto={"Veja depoimentos reais de pessoas reais..."} />
+    <br />
+    <VSLPlayer>
+      <Depoimento1 />
+    </VSLPlayer>
+    <VSLPlayer>
+      <Depoimento2 />
+    </VSLPlayer>
     <br />
     <Garantia />
     <br />
