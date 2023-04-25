@@ -5,23 +5,23 @@
     public/
     src/
     ├─ components/
-    │ ├─ Botao/
-    │ ├─ Texto/
-    │ ├─ VSL/
+    │ ├─ Botao/ - Contem os Botões que podem ser usados
+    │ ├─ Texto/ - Contem os textos que podem ser usados
+    │ ├─ VSL/ - Arquivos de VSL
     ├─ layouts/
-    │ ├─ layouts.astro
+    │ ├─ layouts.astro - Adicionar os scripts da pagina
     ├─ pages/
     │ ├─ downsell1/
-    │ │ ├─ index.astro
+    │ │ ├─ index.astro - Pagina da downsell 1
     │ ├─ downsell2/
-    │ │ ├─ index.astro
+    │ │ ├─ index.astro - Pagina da downsell 2
     │ ├─ obrigado/
-    │ │ ├─ index.astro
+    │ │ ├─ index.astro - Pagina de obrigado
     │ ├─ upsell1/
-    │ │ ├─ index.astro
+    │ │ ├─ index.astro - Pagina da upsell 1
     │ ├─ upsell2/
-    │ │ ├─ index.astro
-    ├─ index.astro
+    │ │ ├─ index.astro - Pagina da upsell 2
+    ├─ index.astro - Pagina principal
 
 ## VSL
 
