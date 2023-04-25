@@ -13,6 +13,7 @@
     "@astrojs/react": "^2.1.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@frontendista/astro-html-minify": "^1.0.7",
     "@mui/material": "^5.12.1",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
