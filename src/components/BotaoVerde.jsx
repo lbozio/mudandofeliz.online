@@ -30,7 +30,20 @@ export default function BotaoVerde(props) {
           width: "80%",
         }}
       >
-        <ColorButton variant="contained">{props.texto}</ColorButton>
+        <ColorButton variant="contained">
+          <a
+            href={props.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="call-to-action-link"
+            style={{
+              textDecoration: "none",
+              color: "#FFFFFF",
+            }}
+          >
+            {props.texto}
+          </a>
+        </ColorButton>
       </div>
     </div>
   );
