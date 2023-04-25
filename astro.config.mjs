@@ -1,8 +1,8 @@
 import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import purgecss from "astro-purgecss";
-
 import compress from "astro-compress";
+import frontendistahtmlMinify from "@frontendista/astro-html-minify";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,7 +11,7 @@ export default defineConfig({
   scripts: {
     "text/javascript": ["**/*.js"],
   },
-  integrations: [react(), compress(), purgecss()],
+  integrations: [react(), compress(), frontendistahtmlMinify(), purgecss()],
   vite: {
     build: {
       rollupOptions: {
