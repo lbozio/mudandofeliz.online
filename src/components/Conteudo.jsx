@@ -39,8 +39,7 @@ export default function Conteudo() {
               Livro Completo
             </Typography>
             <Typography variant="subtitle1">
-              Aprenda o Truque Da Banana que ativa a queima de gordura
-              automática de forma natural.
+              Siga o Protocolo Zero Barriga e ative a queima de gordura imediata
             </Typography>
           </Item>
         </Grid>
