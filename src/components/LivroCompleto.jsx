@@ -49,9 +49,8 @@ export default function LivroCompleto() {
                 acumular cada vez mais gordura.
               </Typography>
               <Typography variant="subtitle1">
-                Reuni no livro <strong>Truque Da Banana Para Secar</strong> , a
-                receita da banana especial que é capaz de eliminar completamente
-                com as bactérias ruins do seu organismo, e repovoá-lo novamente
+                Reuni no livro <strong>Protocolo Zero Barriga</strong>, o método especial que é capaz de eliminar completamente
+                as bactérias ruins do seu organismo, e repovoá-lo novamente
                 com bactérias boas, fazendo você ativar a queima de gordura
                 automática 24 horas por dia.
                 <br />{" "}
