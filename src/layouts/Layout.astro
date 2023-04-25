@@ -1,5 +1,6 @@
 ---
 import Rodape from "../components/Rodape.astro";
+import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 
 export interface Props {
   title: string;
@@ -20,11 +21,8 @@ const { title } = Astro.props;
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="generator" content={Astro.generator} />
-    <link
-      rel="stylesheet"
-      id="google-fonts-1-css"
-      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.1.1"
-      media="all"
+    <GoogleFontsOptimizer
+      url="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.1.1"
     />
     <link
       rel="preload"
@@ -56,41 +54,39 @@ const { title } = Astro.props;
       <slot />
     </main>
     <footer><Rodape /></footer>
-  </body>
+  </body><script type="text/javascript">
+    window.onload = function () {
+      const buttonLinks = document.querySelectorAll(".call-to-action-link");
+      const queryString = window.location.search;
+
+      buttonLinks.forEach((buttonLink) => {
+        buttonLink.href += queryString;
+      });
+    };
+  </script>
+
+  <style>
+    html,
+    body {
+      height: fit-content;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      font-family: "Montserrat", Sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      height: 90%;
+      width: 100%;
+      margin: 0;
+      justify-content: center;
+      display: flex;
+      background-color: white;
+    }
+    footer {
+      height: 10%;
+      background-color: white;
+    }
+  </style>
 </html>
-
-<script type="text/javascript">
-  window.onload = function () {
-    const buttonLinks = document.querySelectorAll(".call-to-action-link");
-    const queryString = window.location.search;
-
-    buttonLinks.forEach((buttonLink) => {
-      buttonLink.href += queryString;
-    });
-  };
-</script>
-
-<style>
-  html,
-  body {
-    height: fit-content;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", Sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  main {
-    height: 90%;
-    width: 100%;
-    margin: 0;
-    justify-content: center;
-    display: flex;
-    background-color: white;
-  }
-  footer {
-    height: 10%;
-    background-color: white;
-  }
-</style>
