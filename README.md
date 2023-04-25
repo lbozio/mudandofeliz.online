@@ -2,7 +2,7 @@
 
 ## Estrutura
 
-public/
+`public/
 src/
 ├─ components/
 │ ├─ Botao/
@@ -21,7 +21,7 @@ src/
 │ │ ├─ index.astro
 │ ├─ upsell2/
 │ │ ├─ index.astro
-├─ index.astro
+├─ index.astro`
 
 ## VSL
 
