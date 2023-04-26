@@ -31,7 +31,7 @@ export default function LivroCompleto() {
             </Grid>
             <Grid item xs={12} md={6}>
               <Typography color={"#4F9A68"} variant="h5" fontWeight="bold">
-                Livro completo
+                Protocolo Zero Barriga Completo
               </Typography>
               <br />
               <Typography variant="subtitle1">
