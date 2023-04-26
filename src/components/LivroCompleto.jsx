@@ -35,24 +35,26 @@ export default function LivroCompleto() {
               </Typography>
               <br />
               <Typography variant="subtitle1">
-                Se você já tentou emagrecer antes através de exercícios físicos,
-                dietas restritivas ou através da abordagem de contagem de
-                calorias, provavelmente você não conseguiu. Você não conseguirá
-                perder peso através desses métodos comuns e isso tem um motivo.
-                De acordo com uma pesquisa feita por cientistas, pessoas que
-                conseguem perder peso possuem boas bactérias em seus organismos
-                que facilitam a perda de peso.
+                Se você já tentou emagrecer fazendo exercícios físicos ou
+                dietas restritivas, eu tenho certeza de que você não conseguiu, não é mesmo!?
+                E isso acontece porque você não está atacando a verdadeira causa raiz do ganho de peso.
+                Existe um nutriente secreto que foi descoberto por um doutor americano que é capaz
+                de ativar a queima de gordura automática no nosso corpo que é capaz de derreter quilos e quilos de banha
+                em poucas semanas, sem precisar de exercícios ou dietas restritivas.
+                Enquanto você não ativar esse nutriente, será impossível queimar gordura, mesmo que você faça dietas,
+                horas e horas de exercícios ou tome pílulas milagrosas...
               </Typography>
               <Typography variant="subtitle1">
-                Enquanto as que simplesmente não conseguem emagrecer, possuem
-                bactérias ruins que tornam a perda peso impossível e fazem você
-                acumular cada vez mais gordura.
+                Você provavelmente tem uma amiga que pode comer de tudo e nunca engorda, né?
+                Enquanto pessoas você come igual um passarinho e já engorda 1 quilo...
+                Isso acontece porque essas pessoas que nunca engordam mesmo comendo o que querem,
+                possuem esse nutriente ativo em seus corpos, o que faz com que a gordura ingerida ao comer
+                sempre seja queimada automaticamente.
+                Dessa forma, o ganho de peso é bloqueado completamente!
               </Typography>
               <Typography variant="subtitle1">
-                Reuni no livro <strong>Protocolo Zero Barriga</strong>, o método especial que é capaz de eliminar completamente
-                as bactérias ruins do seu organismo, e repovoá-lo novamente
-                com bactérias boas, fazendo você ativar a queima de gordura
-                automática 24 horas por dia.
+                Reuni no <strong>Protocolo Zero Barriga</strong>, o ritual matinal que é capaz de eliminar quilos e quilos
+                de gordura do seu corpo, fazendo você ativar a queima de gordura automática 24 horas por dia.
                 <br />{" "}
                 <s>
                   <strong>(Valor R$ 297)</strong>
