@@ -53,11 +53,11 @@ export default function LivroCompleto() {
                 Dessa forma, o ganho de peso é bloqueado completamente!
               </Typography>
               <Typography variant="subtitle1">
-                Reuni no <strong>Protocolo Zero Barriga</strong>, o ritual matinal que é capaz de eliminar quilos e quilos
+                Reuni no <strong> Protocolo Zero Barriga</strong>, o ritual matinal que é capaz de eliminar quilos e quilos
                 de gordura do seu corpo, fazendo você ativar a queima de gordura automática 24 horas por dia.
                 <br />{" "}
                 <s>
-                  <strong>(Valor R$ 297)</strong>
+                  <strong>(Valor R$ 97)</strong>
                 </s>
               </Typography>
             </Grid>
