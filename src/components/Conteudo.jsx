@@ -36,10 +36,11 @@ export default function Conteudo() {
           <Item>
             <Check />
             <Typography color={"#4F9A68"} variant="h6">
-              Livro Completo
+              O Protocolo Zero Barriga resolve acaba com a ansiedade e compulsão alimentar
             </Typography>
             <Typography variant="subtitle1">
-              Siga o Protocolo Zero Barriga e ative a queima de gordura imediata
+              O Protocolo Zero Barriga foi pensado com muito carinho para que funcione perfeitamente em pessoas
+              que comem por compulsão e ansiedade!
             </Typography>
           </Item>
         </Grid>
@@ -50,8 +51,8 @@ export default function Conteudo() {
               Acesso imediato
             </Typography>
             <Typography variant="subtitle1">
-              Seu livro digital será enviado ao seu e-mail logo após o
-              processamento do pagamento.
+              Seu acesso ao Protocolo Zero Barriga é enviado ao seu e-mail automaticamente
+              logo após o pagamento.
             </Typography>
           </Item>
         </Grid>
