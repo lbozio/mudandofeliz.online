@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
   height: 260,
 }));
 
-export default function Conteudo() {
+export default function Banner1() {
   return (
     <Box>
       <Grid container spacing={2} padding={3}>
@@ -36,10 +36,12 @@ export default function Conteudo() {
           <Item>
             <Check />
             <Typography color={"#4F9A68"} variant="h6">
-              O Protocolo Zero Barriga acaba com a ansiedade e compulsão alimentar
+              O Protocolo Zero Barriga acaba com a ansiedade e compulsão
+              alimentar
             </Typography>
             <Typography variant="subtitle1">
-              Dê um fim na compulsão alimentar e na ansiedade através de um método comprovado cientificamente!
+              Dê um fim na compulsão alimentar e na ansiedade através de um
+              método comprovado cientificamente!
             </Typography>
           </Item>
         </Grid>
@@ -50,8 +52,8 @@ export default function Conteudo() {
               Acesso imediato
             </Typography>
             <Typography variant="subtitle1">
-              Seu acesso ao Protocolo Zero Barriga é enviado ao seu e-mail automaticamente
-              logo após o pagamento.
+              Seu acesso ao Protocolo Zero Barriga é enviado ao seu e-mail
+              automaticamente logo após o pagamento.
             </Typography>
           </Item>
         </Grid>
