@@ -32,7 +32,7 @@ const StyledImage = styled(Box)(({ theme }) => ({
   },
 }));
 
-export default function BonusDesconto() {
+export default function AncoragemDePreco() {
   return (
     <div
       style={{ textAlign: "center", display: "flex", justifyContent: "center" }}
