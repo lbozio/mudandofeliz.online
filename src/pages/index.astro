@@ -1,13 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Banner from "../Componentes/Banner.astro";
+import Banner from "../Componentes/Core/Banner.astro";
 import Headline from "../Componentes/Headline.astro";
 import Banner1 from "../Componentes/Banner1";
 import Garantia from "../Componentes/Garantia.jsx";
-import VSLPlayer from "../Componentes/Container.astro";
+import VSLPlayer from "../Componentes/Core/Container.astro";
 import ResumoDaOferta from "../Componentes/ResumoDaOferta";
 import Bonus from "../Componentes/Bonus";
-import SubtituloVerde from "../Componentes/Texto/SubtituloVerde";
+import HeadlineVerde from "../Componentes/Texto/SubtituloVerde";
 import FAQ from "../Componentes/FAQ.astro";
 import BotaoVerde from "../Componentes/Botao/BotaoVerde";
 import AncoragemDePreco from "../Componentes/AncoragemDePreco";
@@ -19,7 +19,7 @@ import Depoimento4 from "../Componentes/VSL/Depoimento4.astro";
 import Depoimento5 from "../Componentes/VSL/Depoimento5.astro";
 import Depoimento6 from "../Componentes/VSL/Depoimento6.astro";
 import Depoimento7 from "../Componentes/VSL/Depoimento7.astro";
-import PlayerDepoimento from "../Componentes/ContainerDepoimento.astro";
+import PlayerDepoimento from "../Componentes/Core/ContainerDepoimento.astro";
 ---
 
 <Layout title="Programa D21">
@@ -33,7 +33,7 @@ import PlayerDepoimento from "../Componentes/ContainerDepoimento.astro";
     </VSLPlayer>
     <Banner1 />
     <br />
-    <SubtituloVerde texto={"Aqui está tudo o que você receberá..."} />
+    <HeadlineVerde texto={"Aqui está tudo o que você receberá..."} />
     <br />
     <ResumoDaOferta />
     <br />
@@ -46,8 +46,8 @@ import PlayerDepoimento from "../Componentes/ContainerDepoimento.astro";
       link={"https://pay.kiwify.com.br/XhZDsu5"}
     />
     <br />
-    <SubtituloVerde texto={"Será que isso realmente funciona?"} />
-    <SubtituloVerde texto={"Veja depoimentos reais de pessoas reais..."} />
+    <HeadlineVerde texto={"Será que isso realmente funciona?"} />
+    <HeadlineVerde texto={"Veja depoimentos reais de pessoas reais..."} />
     <br />
     <PlayerDepoimento>
       <Depoimento1 />
@@ -86,7 +86,4 @@ import PlayerDepoimento from "../Componentes/ContainerDepoimento.astro";
     />
     <br />
   </div>
-  <!-- <br />
-  <Referencia />
-  <br /> -->
 </Layout>
