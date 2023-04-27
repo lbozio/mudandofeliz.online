@@ -36,11 +36,11 @@ export default function Conteudo() {
           <Item>
             <Check />
             <Typography color={"#4F9A68"} variant="h6">
-              O Protocolo Zero Barriga resolve acaba com a ansiedade e compulsão alimentar
+              O Protocolo Zero Barriga acaba com a ansiedade e compulsão alimentar
             </Typography>
             <Typography variant="subtitle1">
-              O Protocolo Zero Barriga foi pensado com muito carinho para que funcione perfeitamente em pessoas
-              que comem por compulsão e ansiedade!
+              O Protocolo Zero Barriga resolve o problema de pessoas
+              que comem por compulsão e ansiedade através de um método comprovado cientificamente!
             </Typography>
           </Item>
         </Grid>
