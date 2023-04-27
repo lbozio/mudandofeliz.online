@@ -1,14 +1,14 @@
 ---
 export interface Props {
-  bold: string;
+  negrito: string;
   texto: string;
 }
 
-const { bold, texto } = Astro.props;
+const { negrito, texto } = Astro.props;
 ---
 
 <div class="banner">
-  <span class="text-banner"><strong>{bold}</strong>{texto}</span>
+  <span class="text-banner"><strong>{negrito}</strong>{texto}</span>
 </div>
 
 <style>
