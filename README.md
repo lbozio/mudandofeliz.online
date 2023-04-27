@@ -4,7 +4,7 @@
 
     public/
     src/
-    ├─ Componentes/
+    ├─ componentes/
     │ ├─ Botao/ - Contem os Botões que podem ser usados
     │ ├─ Texto/ - Contem os textos que podem ser usados
     │ ├─ VSL/ - Arquivos de VSL
