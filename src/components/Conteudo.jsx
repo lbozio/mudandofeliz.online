@@ -39,8 +39,7 @@ export default function Conteudo() {
               O Protocolo Zero Barriga acaba com a ansiedade e compulsão alimentar
             </Typography>
             <Typography variant="subtitle1">
-              O Protocolo Zero Barriga resolve o problema de pessoas
-              que comem por compulsão e ansiedade através de um método comprovado cientificamente!
+              Dê um fim na compulsão alimentar e na ansiedade através de um método comprovado cientificamente!
             </Typography>
           </Item>
         </Grid>
