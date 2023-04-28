@@ -42,17 +42,17 @@ export default function AncoragemDePreco() {
           <Grid container spacing={2} padding={3}>
             <Grid item xs={12} md={12}>
               <Typography color="#9F9F9F" variant="h6">
-                <s>VALOR TOTAL DE R$ 497,00 </s>
+                <s>VALOR TOTAL DE R$ 97,00 </s>
                 <br />
-                <s>POR R$ 147,00</s>
+                <s>POR R$ 59,00</s>
               </Typography>
               <br />
 
               <Typography variant="h4" fontWeight={"bold"}>
-                MAS HOJE POR R$ 12X DE R$ 14,76
+                MAS HOJE POR R$ 12X DE R$ 5,92
               </Typography>
               <Typography variant="h6" fontWeight={"bold"}>
-                OU R$ 147,00 À VISTA
+                OU R$ 59,00 À VISTA
               </Typography>
               <br />
               <Typography color={"#4F9A68"} variant="h5" fontWeight={"bold"}>
